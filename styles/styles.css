@@ -46,11 +46,20 @@ nav  ul{
 nav ul li{
     list-style: none;
     margin-right: 71px;
+
 }
 li a {
     text-decoration: none;
     color: #006D77;
     font-size: 20px;
+}
+li a:hover {
+    text-decoration: none;
+    color: #E29578;
+}
+#blocked:hover {
+    text-decoration: none;
+    color: grey;
 }
 .menu{
     display: flex;
@@ -127,6 +136,15 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
    align-items: center;
+}
+.game_name a{
+  cursor: pointer;
+
+}
+.game_name a:hover{
+    color: #E29578;
+    font-weight: bold;
+    font-size: 20px;
 }
 .main-info-image img{
     width: 365px;
@@ -209,4 +227,5 @@ margin-bottom: 20px;
 .img_box img{
     width: 100%;
     height: 200px;
+
 }
