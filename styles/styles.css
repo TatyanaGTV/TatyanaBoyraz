@@ -3,19 +3,25 @@
     src: url(images/magento-regular2.otf);
 }
 
-
-
-
 body{
     margin: 0;
     padding: 0;
-    font-size: 20px;
     color: #006D77;
-   
 }
-
+h2{
+    font-size: 28px;
+}
+h3  {
+    font-size: 25px;
+}
+p{
+    font-size: 24px;
+}
+li{
+    font-size: 24px;
+}
 .container{
-    width: 1400px;
+  /*  width: 1400px;*/
     padding: 20px;
     margin:  0 auto;
 }
@@ -33,7 +39,7 @@ body{
 .logo{
     position: relative;
     top: 7px;
-  left: -101px;
+  left: 1px;
   margin-top: 33px;
   margin-bottom: 44px;
 }
@@ -41,17 +47,16 @@ nav  ul{
     display: flex;
   justify-content: space-around;
   align-items: center;
-    
+    flex-shrink: inherit;
 }
 nav ul li{
     list-style: none;
     margin-right: 71px;
-
 }
 li a {
     text-decoration: none;
     color: #006D77;
-    font-size: 20px;
+    font-size: 25px;
 }
 li a:hover {
     text-decoration: none;
@@ -66,8 +71,6 @@ li a:hover {
     align-items: center;
     justify-content: center;
     margin-right: 15px;
-
- 
 }
 .about_me{
     background-color: #83C5BE;
@@ -139,21 +142,24 @@ cursor: pointer;
 }
 .game_name a{
   cursor: pointer;
-
+ font-size: 25px;
 }
 .game_name a:hover{
-    color: #E29578;
+    color: #d32771;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
+}
+.main-info-image{
+    width: 365px;
 }
 .main-info-image img{
-    width: 365px;
+   width: 100%;
     border-radius: 50%;
-
 }
 .main-info{
     display: flex;
   justify-content: center;
+    align-items: center;
   gap: 104px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -163,7 +169,6 @@ cursor: pointer;
   margin-top: 40px;
   font-size: 30px;
   text-align: center;
-  
 }
 .neuropsycology-block{
     display: flex;
@@ -179,16 +184,17 @@ cursor: pointer;
 .button{
     width: 200px;
     height: 50px;
-    background-color:#E29578;
+    background-color:#d32771;
     color: #FFDDD2;
     border-radius: 10px;
     outline: none;
     border: none;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .button:hover{
-    color:#006D77;
+    background-color:#245c42;
 }
 .my-services-items{
     display: flex;
@@ -210,6 +216,13 @@ margin-bottom: 20px;
 .my-services-description-text {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 25px;
+}
+.my-services-item-description, .my-services-item-price{
+    font-size: 20px;
+}
+.my-services-item-price{
+    color: #d32771;
 }
 
 .button-box{
@@ -227,5 +240,11 @@ margin-bottom: 20px;
 .img_box img{
     width: 100%;
     height: 200px;
+}
+.burger {
+    display: none;
+}
 
+.close {
+    display: none;
 }

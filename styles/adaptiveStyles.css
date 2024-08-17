@@ -1,0 +1,267 @@
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 20px;
+        margin: 0 auto;
+    }
+    nav  ul{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .menu {
+        justify-content: flex-start;
+        margin-right: 10px;
+    }
+
+    .logo {
+        position: relative;
+        top: 7px;
+        left: 10px;
+        margin-top: 33px;
+        margin-bottom: 44px;
+    }
+
+    .main-info {
+        gap: 50px;
+    }
+
+    nav ul li {
+        margin-right: 30px;
+    }
+
+    .main-info-text {
+        font-size: 25px;
+    }
+
+    .neuropsycology-block {
+        gap: 15px;
+    }
+
+    .my-services-items {
+        gap: 150px;
+    }
+}
+@media screen and (max-width: 768px){
+    nav  ul{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .main-info-image img{
+        max-width: 250px;
+    }
+    .my-services-items{
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 700px){
+    nav  ul{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .main-info-image img{
+        max-width: 250px;
+    }
+    .my-services-items{
+        gap: 80px;
+    }
+    .my-services-items{
+        flex-direction: column;
+        align-items: center;
+        gap: unset;
+    }
+    .neuropsycology-block{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 580px){
+    nav  ul{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .main-info{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .main-info-text{
+        width: unset;
+        margin-top: 40px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .main-info-image img{
+        max-width:unset;
+    }
+    .my-services-items{
+        flex-direction: column;
+        align-items: center;
+        gap: unset;
+    }
+    .my-services-item{
+        width: unset;
+        text-align: center;
+    }
+    .neuropsycology-block{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .problem-list{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 425px){
+    .main-info{
+        flex-direction: column;
+        align-items: center;
+        gap: 104px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .main-info-image img{
+        width: 250px;
+    }
+    .main-info-image {
+        width: unset;
+    }
+    .neuropsycology-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .neuropsycology-block_diagnostic, .neuropsycology-block-correction{
+        width: unset;
+    }
+    .my-services-items{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .my-services-item{
+        width: unset;
+        text-align: center;
+    }
+    .problem-list{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3  {
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+    li{
+        font-size: 20px;
+    }
+    .games{
+        flex-direction: column;
+    }
+    .game_name a {
+        font-size: 25px;
+    }
+   /* .menu{
+        display: none;
+    }*/
+    .navigation{
+        display: none;
+    }
+    .navigation {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+    .navigation ul li {
+        margin: 15px 0;
+    }
+    .burger {
+        display: block;
+        position: absolute;
+        right: 10px;
+    }
+    .burger svg {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    .burger svg path {
+        fill:  #006D77;
+    }
+    .navigation.open {
+        display: flex;
+        align-items: center;
+    }
+    .navigation .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #EDF6F9;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .main-info{
+        flex-direction: column;
+        align-items: center;
+        gap: 104px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .main-info-image img{
+        width: 200px;
+    }
+    .neuropsycology-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .neuropsycology-block_diagnostic, .neuropsycology-block-correction{
+        width: unset;
+    }
+    .my-services-items{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .my-services-item{
+        width: unset;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3  {
+        font-size: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+    li{
+        font-size: 20px;
+    }
+    .games{
+        flex-direction: column;
+    }
+    .game_name a {
+        font-size: 25px;
+    }
+
+}
