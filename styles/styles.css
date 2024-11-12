@@ -13,9 +13,13 @@ h2{
 }
 h3  {
     font-size: 25px;
+    justify-self: center;
 }
 p{
     font-size: 24px;
+}
+.your_child {
+    justify-self: center;
 }
 li{
     font-size: 24px;
@@ -172,6 +176,7 @@ cursor: pointer;
 }
 .neuropsycology-block{
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
     align-items: baseline;
 }
@@ -180,6 +185,11 @@ cursor: pointer;
 }
 .neuropsycology-block-correction{
     width: 500px;
+}
+
+.neuropsycology-block-what-for{
+    padding-left: 70px;
+    padding-right: 70px;
 }
 .button{
     width: 200px;
@@ -222,7 +232,7 @@ margin-bottom: 20px;
     font-size: 20px;
 }
 .my-services-item-price{
-    color: #d32771;
+    color: #e7ffee;
 }
 
 .button-box{
