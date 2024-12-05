@@ -32,7 +32,7 @@ li{
 
 .header {
     background-color:#EDF6F9;
-  border-bottom: 2px solid #FFDDD2;
+    box-shadow: inset -20px -9px 18px 0px #83c5be;
 
 }
 .logo img{
@@ -78,20 +78,31 @@ li a:hover {
 }
 .about_me{
     background-color: #83C5BE;
+    box-shadow: 0px -20px 19px 20px #83c5be;
 }
 .neuropsycology{
     background-color: #EDF6F9;
+    box-shadow: inset 16px 20px 12px 20px #83c5be;
 }
 .my-services{
     background-color: #83C5BE;
+    box-shadow: 20px 2px 13px 19px #83c5be;
 }
 .my-games{
     background-color: #EDF6F9;
+    box-shadow: inset 20px -2px 12px 20px #83c5be;
 }
 .footer{
     background-color: #006D77;
-  border-top: 2px solid #FFDDD2;
-  
+    box-shadow:5px -13px 12px 15px #006d77;
+}
+#bodrum{
+    background-color: #006D77;
+    color:#EDF6F9 ;
+}
+.neuro{
+    text-align: center;
+    padding-top: 20px;
 }
 svg path{
     fill: #EDF6F9;
