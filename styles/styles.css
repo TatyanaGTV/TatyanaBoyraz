@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     color: #006D77;
+    background-color: black;
 
 }
 h2{
@@ -84,7 +85,7 @@ li a:hover {
 }
 .neuropsycology{
     background-color: #EDF6F9;
-    box-shadow: inset 16px 20px 12px 20px #83c5be;
+    box-shadow: inset 20px 0 12px 20px #83c5be;
 }
 .my-services{
     background-color: #83C5BE;
@@ -172,7 +173,7 @@ cursor: pointer;
 }
 .main-info-image img{
    width: 100%;
-    border-radius: 50%;
+    border-radius: 30%;
 }
 .main-info{
     display: flex;
@@ -205,6 +206,10 @@ cursor: pointer;
     padding-left: 70px;
     padding-right: 70px;
 }
+.shortTerm{
+    background-color: #EDF6F9;
+    box-shadow: inset -20px 20px 12px 20px #83c5be;
+}
 .button{
     width: 200px;
     height: 50px;
@@ -229,7 +234,7 @@ cursor: pointer;
 .my-services-items{
     display: flex;
     justify-content: center;
-    gap: 180px;
+    gap: 50px;
 }
 
 .my-services-item-title{
