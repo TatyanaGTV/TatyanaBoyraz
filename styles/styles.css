@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
     color: #006D77;
-    background-color: black;
+
 
 }
 h2{
@@ -34,9 +34,7 @@ li{
 
 .header {
    background-color:#EDF6F9;
-    box-shadow: inset -20px -9px 18px 0px #83c5be;
-
-
+    box-shadow: inset -20px -9px 18px 0 #83c5be;
 }
 .logo img{
     width: 100px;
@@ -79,11 +77,11 @@ li a:hover {
     justify-content: center;
     margin-right: 15px;
 }
-.about_me{
+.about_me, .base-education{
     background-color: #83C5BE;
     box-shadow: 0px -20px 19px 20px #83c5be;
 }
-.neuropsycology{
+.neuropsycology, .expiriense{
     background-color: #EDF6F9;
     box-shadow: inset 20px 0 12px 20px #83c5be;
 }
@@ -285,4 +283,43 @@ margin-bottom: 20px;
 }
 .b17{
     color:  #e7ffee;
+}
+
+.base-education-info{
+    padding: 20px;
+    color: #e7ffee;
+    text-align: center;
+}
+.expiriense-info{
+    padding: 20px;
+    text-align: center;
+}
+.add-education-info{
+    padding: 20px;
+    text-align: center;
+}
+.back-button{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: #11494b;
+    outline: none;
+    border: none;
+    color: #e7ffee;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.back-button a{
+    text-decoration: none;
+    color: #e7ffee;
+}
+.back-button:hover{
+    text-decoration: underline;
+}
+.base-education{
+    position: relative;
 }
