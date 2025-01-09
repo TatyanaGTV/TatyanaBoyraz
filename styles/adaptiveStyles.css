@@ -39,6 +39,9 @@
     .my-services-items {
         gap: 150px;
     }
+    .my-services-items{
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width: 768px){
     nav  ul{
@@ -105,6 +108,12 @@
         width: unset;
         text-align: center;
     }
+    p, .my-services-description-text-item{
+        font-size: 20px;
+    }
+    li{
+        font-size: 20px;
+    }
     .neuropsycology-block{
         flex-direction: column;
         align-items: center;
@@ -113,6 +122,69 @@
     .problem-list{
         flex-direction: column;
     }
+    .neuropsycology-block_diagnostic, .neuropsycology-block-correction{
+        width: 300px;
+    }
+    .navigation{
+        display: none;
+    }
+    .navigation {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+    .navigation ul li {
+        margin: 15px 0;
+        text-align: center;
+    }
+    .burger {
+        display: block;
+        position: absolute;
+        right: 10px;
+    }
+    .burger svg {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    .burger svg path {
+        fill:  #006D77;
+    }
+    .navigation.open {
+        display: flex;
+        align-items: center;
+    }
+    .navigation .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #EDF6F9;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .back-button{
+        width: 70px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .back-button:hover{
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+
 }
 @media screen and (max-width: 425px){
     .main-info{
@@ -148,12 +220,12 @@
         flex-direction: column;
     }
     h2{
-        font-size: 30px;
+        font-size: 27px;
     }
     h3  {
         font-size: 25px;
     }
-    p{
+    p, .my-services-description-text-item{
         font-size: 20px;
     }
     li{
@@ -168,53 +240,20 @@
    /* .menu{
         display: none;
     }*/
-    .navigation{
-        display: none;
-    }
-    .navigation {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        top: 0;
-        left: 0;
-        background: #000000c9;
-    }
 
-    .navigation ul {
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        margin: 0 auto;
+
+    .img_box {
+        width: 200px;
+        height: 300px;
     }
-    .navigation ul li {
-        margin: 15px 0;
+    .back-button{
+        width: 70px;
+        height: 30px;
+        font-size: 15px;
     }
-    .burger {
-        display: block;
-        position: absolute;
-        right: 10px;
-    }
-    .burger svg {
-        width: 40px;
-        height: 40px;
-        margin-right: 20px;
-    }
-    .burger svg path {
-        fill:  #006D77;
-    }
-    .navigation.open {
-        display: flex;
-        align-items: center;
-    }
-    .navigation .close {
-        display: block;
-        width: 24px;
-        height: 24px;
-        fill: #EDF6F9;
-        position: absolute;
-        top: 20px;
-        left: 20px;
+    .back-button:hover{
+        text-decoration: underline;
+        font-size: 17px;
     }
 }
 
@@ -245,23 +284,37 @@
         width: unset;
         text-align: center;
     }
-    h2{
-        font-size: 30px;
-    }
-    h3  {
+    h2, .my-services-title{
         font-size: 25px;
     }
-    p{
+    h3  {
         font-size: 20px;
     }
+    p, .my-services-description-text-item{
+        font-size: 15px;
+    }
     li{
-        font-size: 20px;
+        font-size: 15px;
     }
     .games{
         flex-direction: column;
     }
     .game_name a {
-        font-size: 25px;
+        font-size:20px;
+    }
+
+    .img_box {
+        width: 200px;
+        height: 300px;
+    }
+    .back-button{
+        width: 50px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .back-button:hover{
+        text-decoration: underline;
+        font-size: 11px;
     }
 
 }
