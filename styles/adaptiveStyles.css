@@ -42,6 +42,9 @@
     .my-services-items{
         flex-wrap: wrap;
     }
+    .my-services-items.super-desc-block{
+        gap: 30px;
+    }
 }
 @media screen and (max-width: 768px){
     nav  ul{
@@ -102,7 +105,7 @@
     .my-services-items{
         flex-direction: column;
         align-items: center;
-        gap: unset;
+        gap: 30px;
     }
     .my-services-item{
         width: unset;
@@ -183,8 +186,60 @@
         text-decoration: underline;
         font-size: 20px;
     }
+    .block-title.main{
+        text-align: center;
+    }
+    .base-education-info p {
+        font-size: 20px;
+    }
 
+    .expiriense-info, .add-education-info p {
+        font-size: 20px;
+    }
+    .base-education-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
 
+    .expiriense-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
+
+    .add-education-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
+
+    .for_border {
+        border-bottom: 2px solid black;
+        width: auto;
+    }
+    .my-services-description-text.super-desc{
+        width: auto;
+    }
+    .game-desc{
+        width: auto;
+    }
+    .game-demo video{
+        width: 200px;
+        height: 240px;
+    }
+    .game-presentation{
+        flex-direction: column;
+    }
+    .game-desc p{
+        font-size: 20px;
+    }
+    .game_name{
+        margin-bottom: 10px;
+    }
+    .super-info-text{
+        text-align: center;
+    }
 }
 @media screen and (max-width: 425px){
     .main-info{
@@ -206,6 +261,7 @@
     }
     .neuropsycology-block_diagnostic, .neuropsycology-block-correction{
         width: unset;
+        padding: 10px;
     }
     .my-services-items{
         flex-direction: column;
@@ -255,66 +311,246 @@
         text-decoration: underline;
         font-size: 17px;
     }
+    .block-title.main{
+        text-align: center;
+    }
+    .base-education-info p {
+        font-size: 20px;
+    }
+
+    .expiriense-info, .add-education-info p {
+        font-size: 20px;
+    }
+    .base-education-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
+
+    .expiriense-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
+
+    .add-education-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
+
+    .for_border {
+        border-bottom: 2px solid black;
+        width: auto;
+    }
+    .my-services-description-text.super-desc{
+        width: auto;
+    }
+    .game-desc{
+        width: auto;
+    }
+    .game-demo video{
+        width: 200px;
+        height: 240px;
+    }
+    .game-presentation{
+        flex-direction: column;
+    }
+    .game-desc p{
+        font-size: 20px;
+    }
+    .game_name{
+        margin-bottom: 10px;
+    }
 }
 
-@media screen and (max-width: 375px){
-    .main-info{
+@media screen and (max-width: 375px) {
+    .main-info {
         flex-direction: column;
         align-items: center;
         gap: 104px;
         margin-top: 20px;
         margin-bottom: 30px;
     }
-    .main-info-image img{
+
+    .main-info-image img {
         width: 200px;
     }
-    .neuropsycology-block{
+
+    .neuropsycology-block {
         flex-direction: column;
         align-items: center;
     }
-    .neuropsycology-block_diagnostic, .neuropsycology-block-correction{
+
+    .neuropsycology-block_diagnostic, .neuropsycology-block-correction {
         width: unset;
+        padding: 10px;
     }
-    .my-services-items{
+
+    .my-services-items {
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
-    .my-services-item{
+
+    .my-services-item {
         width: unset;
         text-align: center;
     }
-    h2, .my-services-title{
+
+    h2, .my-services-title {
         font-size: 25px;
     }
-    h3  {
+
+    h3 {
         font-size: 20px;
     }
-    p, .my-services-description-text-item{
+
+    p, .my-services-description-text-item {
         font-size: 15px;
     }
-    li{
+
+    li {
         font-size: 15px;
     }
-    .games{
+
+    .games {
         flex-direction: column;
     }
+
     .game_name a {
-        font-size:20px;
+        font-size: 20px;
     }
 
     .img_box {
         width: 200px;
         height: 300px;
     }
-    .back-button{
+
+    .back-button {
         width: 50px;
         height: 30px;
         font-size: 10px;
     }
-    .back-button:hover{
+
+    .back-button:hover {
         text-decoration: underline;
         font-size: 11px;
     }
 
+    .base-education-info p {
+        font-size: 15px;
+    }
+
+    .expiriense-info, .add-education-info p {
+        font-size: 15px;
+    }
+
+    .base-education-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
+
+    .expiriense-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
+
+    .add-education-info {
+        width: auto;
+        margin: auto;
+        background-color: #0000004a;
+    }
+
+    .for_border {
+        border-bottom: 2px solid black;
+        width: auto;
+    }
+
+    .my-services-description-text.super-desc {
+        width: auto;
+    }
+
+    .game-desc{
+        width: auto;
+    }
+    .game-demo video{
+        width: 200px;
+        height: 240px;
+    }
+    .game-presentation{
+        flex-direction: column;
+    }
+    .game-desc p{
+        font-size: 20px;
+    }
+    .game_name{
+        margin-bottom: 10px;
+    }
+}
+
+    @media screen and (max-width: 320px) {
+        .block-title.main {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .neuropsycology-block_diagnostic, .neuropsycology-block-correction {
+            width: unset;
+            padding: 10px;
+        }
+
+        .base-education-info p {
+            font-size: 15px;
+        }
+
+        .expiriense-info, .add-education-info p {
+            font-size: 15px;
+        }
+
+        .base-education-info {
+            width: auto;
+            margin: auto;
+            background-color: #0000004a;
+        }
+
+        .expiriense-info {
+            width: auto;
+            margin: auto;
+            background-color: #0000004a;
+        }
+
+        .add-education-info {
+            width: auto;
+            margin: auto;
+            background-color: #0000004a;
+        }
+
+        .for_border {
+            border-bottom: 2px solid black;
+            width: auto;
+        }
+        .my-services-description-text.super-desc{
+            width: auto;
+        }
+        .game-desc{
+            width: auto;
+        }
+        .game-demo video{
+            width: 200px;
+            height: 240px;
+        }
+        .game-presentation{
+            flex-direction: column;
+        }
+        .game-desc p{
+            font-size: 20px;
+        }
+        .game_name{
+            margin-bottom: 10px;
+        }
+
+        /* сделать адаптив для страницы об ообразовании и специалистов*/
 }

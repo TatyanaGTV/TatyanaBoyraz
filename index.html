@@ -16,6 +16,8 @@
     <meta property="og:description" content="Нейропсихологическая диагностика и коррекция у опыного специалиста.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://tatyanagtv.github.io/TatyanaBoyraz/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
    <link rel="stylesheet" href="styles/styles.css">
    <link rel="stylesheet" href="styles/adaptiveStyles.css">
     <meta name="viewport" content="width=device width, initial-scale=1.0">
@@ -29,7 +31,7 @@
 
     gtag('config', 'G-DVX0JY4KJH');
 </script>
-<body>
+<body style="background-image: url(images/дорога1.1.jpeg)">
     <header class="header">
         <div class="container">
             <div class="menu"> 
@@ -74,20 +76,20 @@
                             <a href="#neuro"> Нейропсихология  </a>
                         </li>-->
                         <li>
-                            <a href="#services"> Диагностика, коррекция, консультирование </a>
+                            <a href="#services"> Диагностика, коррекция, саморазвитие </a>
                         </li>
                         <li>
                             <a href="#games"> Развивающие игры </a>
                         </li>
                         <li>
-                            <a href="#special" class="notActiveBlock" id="blocked"> Для специалистов </a>
+                            <a href="views/special.html"  > Для специалистов </a>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <section class="about_me">
+    <section class="about_me" >
         <div class="container">
            <div class="main-info">
             <div class="main-info-text">
@@ -99,8 +101,7 @@
                      Я работаю с детьми школьного возраста с 1 по 11 класс, имеющими трудности с усвоением школьных предметов,
                      а также дислексией, дисграфией, дискалькулией. Использую эффективные методики.
                      В качестве семейного психолога помогаю решить вопросы, касаемые семьи и брака, воспитания детей, а также индивидуальные запросы.
-                    Опыт работы более 13 лет.
-
+                    Опыт работы более 15 лет.
                </p>
                <p>  Здесь Вы можете познакомиться с играми, которые я создаю на конструкторах и самостоятельно,записаться ко мне на нейропсихологическую диагностику и коррекцию.
                 Если Вы специалист (нейропсихолог, психолог, дефектолог, логопед), то приглашаю Вас на страницу "Для специалистов" (в настоящее время находится в разработке),
@@ -116,19 +117,22 @@
 <!--секция о нейродиагностике и коррекции-->
     <section class="neuropsycology" id="neuro">
         <div class="container">
-            <p class="neuro"> <strong>Нейропсихология </strong>  - это наука, изучающая мозговые механизмы высших психических функций.</p>
         <div class="neuropsycology-block">
+            <p class="neuro"> <span class="important-words"><strong>Нейропсихология </strong></span>  - это наука, изучающая мозговые механизмы высших психических функций.</p>
+             </p>
             <div class="neuropsycology-block_diagnostic">
-               <h2> Нейропсихологическая диагностика.</h2> 
+               <h2 class="block-title main"> Нейропсихологическая диагностика.</h2>
                <h3>Что это такое?</h3>
+                <p>Это увлекательное путешествие в тайны работы мозга человека, целью которого является нахождение причин почему оно работает именно так у конкретно взятого человека.</p>
                <p> Это исследование работы высших психических функций (ВПФ), таких как память, внимание, мышление, речь и др. при помощи специально подобранных заданий.</p>
                 <h3>Для чего?</h3>
                 <p>Когда есть трудности в обучении у детей - для того, чтобы выявить причины этих трудностей для их предодоления. Когда ребенок перенес инсульт,черепно-мозговую травму в результате ДТП, серьезные сотрясения мозга и др.состояния и испытывает трудности в усвоении учебной программы - для того, чтобы выявить пострадавшие функции для их восстановления.</p>
 
             </div>
             <div class="neuropsycology-block-correction">
-                <h2>Нейропсихологическая коррекция</h2>
+                <h2 class="block-title main">Нейропсихологическая коррекция</h2>
                 <h3>Что это такое?</h3>
+                <p> Это длинный путь перестройки нейронных связей, работающих неоптимальным образом и формирования новых более функционвльных и менее энергозатратных. Как следствие -  улучшается качество жизни человека.</p>
                 <p>Это эффективный метод преодоления школьных трудностей, когда они вызваны особенностями работы мозга и нервной системы в целом.
                     Это эффективный метод, система физических, когнитивных упражнений, направленных на восстановление поврежденных ВПФ или формирование/развитие незрелых ВПФ, благодаря которой, преодолеваются трудности и улучшается качество жизни. Программа нейропсихологической коррекции составляется на основе данных нейропсихологической диагностики.</p>
             </div>
@@ -167,7 +171,7 @@
     </section>
     <section class="shortTerm" id="strategy">
         <div class="container">
-            <h2 class="neuro"> <strong>Системная и краткосрочная стратегическая терапия </strong></h2>
+            <h2 class="neuro"> <strong>Системное и краткосрочное стратегическое консультирование </strong></h2>
             <div class="neuropsycology-block">
                 <div class="neuropsycology-block_diagnostic">
                     <h3>Что это такое?</h3>
@@ -191,27 +195,42 @@
 <!--секция о моих услугах-->
 <section class="my-services" id="services">
 <div class="container">
-    <h2 class="my-services-title"> Диагностика, коррекция, консультирование и саморазвитие</h2>
+    <h2 class="block-title services"> Диагностика, коррекция и саморазвитие</h2>
     <div class="my-services-items">
-        <div class="my-services-item">
+        <div class="my-services-item item1">
             <div class="my-services-item-title">
-               <h3><strong>Нейропсихологическая диагностика онлайн</strong>  </h3>
+                <h3> <strong>Скорочтение, майнд-фитнес</strong> </h3>
             </div>
             <div class="my-services-item-description">
-                Длительность 1,5-2 часа. 
+                Длительность  60-90 минут.
             </div>
             <div class="my-services-item-price">
-             <strong> 6000 руб. </strong>
+                <strong>  10000 руб.</strong>
             </div>
-          <div class="my-services-description-text">
-                <div class="my-services-description-text-item">
-                   Она длится 1,5-2 часа, в течение которых я беседую с Вами до и после диагностики и провожу диагностику непосредственно с ребенком.
-                    В течение трех дней я высылаю письменное заключение.
-                    Оно может Вам пригодится для предьявления учителям в школе, врачам и другим специалистам при необходимости.
-                </div> 
+            <div class="my-services-description-text">
+                <div class="my-services-description-text-item"> Пакет на 8 занятий по 2 раза в неделю
+
+                </div>
             </div>
         </div>
-        <div class="my-services-item">
+        <div class="my-services-item item4">
+            <div class="my-services-item-title">
+                <h3> <strong>Индивидуальное и семейное консультирование онлайн</strong> </h3>
+            </div>
+            <div class="my-services-item-description">
+                Длительность  60-90 минут.
+            </div>
+            <div class="my-services-item-price">
+                <strong>  3500 руб.</strong>
+            </div>
+            <div class="my-services-description-text">
+                <div class="my-services-description-text-item"> Возможна как краткосрочное, так и длительное консультирование.
+
+                </div>
+            </div>
+        </div>
+
+        <div class="my-services-item item2">
             <div class="my-services-item-title">
               <h3> <strong>Нейропсихологическая коррекция онлайн</strong> </h3>
             </div>
@@ -228,38 +247,26 @@
                     </div>
             </div>
         </div>
-        <div class="my-services-item">
+        <div class="my-services-item item3">
             <div class="my-services-item-title">
-                <h3> <strong>Семейное и индивидуальное консультирование онлайн</strong> </h3>
+                <h3><strong>Нейропсихологическая диагностика онлайн</strong>  </h3>
             </div>
             <div class="my-services-item-description">
-                Длительность  60-90 минут.
+                Длительность 1,5-2 часа.
             </div>
             <div class="my-services-item-price">
-                <strong>  3000 руб.</strong>
+                <strong> 6000 руб. </strong>
             </div>
-           <div class="my-services-description-text">
-                <div class="my-services-description-text-item"> Возможна как краткосрочная, так и длительная терапия.
-
+            <div class="my-services-description-text">
+                <div class="my-services-description-text-item">
+                    Она длится 1,5-2 часа, в течение которых я беседую с Вами до и после диагностики и провожу диагностику непосредственно с ребенком.
+                    В течение трех дней я высылаю письменное заключение.
+                    Оно может Вам пригодится для предьявления учителям в школе, врачам и другим специалистам при необходимости.
                 </div>
             </div>
         </div>
-        <div class="my-services-item">
-            <div class="my-services-item-title">
-                <h3> <strong>Скорочтение, майнд-фитнес</strong> </h3>
-            </div>
-            <div class="my-services-item-description">
-                Длительность  60-90 минут.
-            </div>
-            <div class="my-services-item-price">
-                <strong>  10000 руб.</strong>
-            </div>
-               <div class="my-services-description-text">
-                   <div class="my-services-description-text-item"> Пакет на 8 занятий по 2 раза в неделю
 
-                   </div>
-               </div>
-        </div>
+
     </div>
     <div class="button-box">
         <a href="https://t.me/neuro_dev_tatyana">
@@ -272,7 +279,7 @@
 <!-- секция с моими онлайн играми-->
 <section class="my-games" id="games">
     <div class="container"> 
-        <div class="games"> <!--добавить анимацию при наведении на игры-->
+       <!-- <div class="games">
             <div class="game_name double">
                 <div class="img_box">
                     <img src="images/872.jpg" alt="">
@@ -338,6 +345,95 @@
 
                 </a>
             </div>
+        </div> -->
+        <!-- Swiper -->
+        <div class="slider">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="game_name double">
+                        <div class="img_box">
+                            <img src="images/872.jpg" alt="">
+                        </div>
+                        <a href="https://learningapps.org/view30451029">
+                            Парочки
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game_name">
+                        <div class="img_box">
+                            <img src="images/2024-01-21_23-13-04.png" alt="">
+                        </div>
+                        <a href="https://etreniki.ru/Y45GNW45G4">
+                            Загадочные слова
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game_name">
+                        <div class="img_box">
+                            <img src="images/2024-01-21_23-12-31.png" alt="">
+                        </div>
+                        <a href="https://etreniki.ru/87VV471RFU">
+                            Бамбук
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game_name">
+                        <div class="img_box">
+                            <img src="images/IMG_19.jpg" alt="">
+                        </div>
+                        <a href="https://tatyanagtv.github.io/tryToRepeat/">
+                            Повтори это
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game_name">
+                        <div class="img_box">
+                            <img src="images/mainBackgtuond.jpg" alt="">
+                        </div>
+                        <a href="https://tatyanagtv.github.io/GuessWhiIsIt/">
+                            Угадай кто это?!
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game_name double">
+                        <div class="img_box">
+                            <img src="images/Парные коврики_2.jpg" alt="">
+                        </div>
+                        <a href="https://learningapps.org/watch?v=piczv393k24">
+                            Парные коврики
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game_name double">
+                        <div class="img_box">
+                            <img src="images/Цветы маме3.jpg" alt="">
+                        </div>
+                        <a href="https://learningapps.org/watch?v=ppimv1egc24">
+                            Цветы маме
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="game_name double">
+                        <div class="img_box">
+                            <img src="images/form.jpg" alt="">
+                        </div>
+                        <a href="https://learningapps.org/watch?v=p8k2xghm524">
+                            Формулы
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+          <!--  <div class="swiper-pagination"></div>-->
+        </div>
         </div>
 </div>
 </section>
@@ -359,7 +455,7 @@
     </div>
 </footer>
 
-
+<!--скрипт для бургер-меню-->
     <script>
 	    document.getElementById('burger').onclick = function () {
 		    document.getElementById('menu').classList.add('open');
@@ -378,6 +474,27 @@
     </script>
     <!-- для отображения периода -->
   <!--  Copyright &copy; 2010<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Company Name. All rights reserved. -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 </body>
 </html>

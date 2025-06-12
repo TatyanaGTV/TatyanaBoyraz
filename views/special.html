@@ -15,14 +15,42 @@
     <link rel="stylesheet" href="../styles/adaptiveStyles.css">
     <meta name="viewport" content="width=device width, initial-scale=1.0">
 </head>
-<body>
-    <header class="header">
+<body style="background-image: url(../images/lug-s-tsvetami-5.webp)">
+    <header class="header special">
         <div class="container"> 
-            <div class="logo">
-                <img src="../images/logo.jpg" alt="Logo">
-            </div>
-            <div class="menu"> 
-                <nav>
+
+            <div class="menu">
+                <div class="logo">
+                    <img src="../images/logo.jpg" alt="Logo">
+                </div>
+                <div class="burger" id="burger">
+                    <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+                        <path d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/>
+                        <path d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"/>
+                    </svg>
+                </div>
+                <nav class="navigation" id="menu">
+                    <!--добавить анимацию к пунктам меню рпи наведении-->
+                    <div class="close">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	</g>
+</g>
+</svg>
+                    </div>
+              <!--  <nav>-->
                     <!--добавить анимацию к пунктам меню рпи наведении-->
                     <ul>
                         <li>
@@ -57,56 +85,170 @@
         <section class="supervisions" id="super">
             <div class="container"> 
                 <div>
-                    <h2>Супервизия</h2>
-                    <p></p>
-                    <button class="button">Записаться</button>
+                    <h2 class="block-title super">Супервизия</h2>
+                    <div class="super-info">
+                        <div class="super-info-text">Супервизия проводится как в индивидуальном, так и в групповом формате. </div>
+                        <div class="super-info-text">Группа проходит по воскресеньям с 14.00 - 16.00</div>
+                        <div class="super-info-text">Длительность - 1,5 - 2  часа.</div>
+                        <div class="super-info-description">
+                            Стоимость
+                        </div>
+                        <div class="super-info-price">
+                            <strong> 2000 руб. </strong>
+                        </div>
+                    </div>
+
+                    <div class="my-services-items super-desc-block">
+                        <div class="my-services-description-text super-desc">Написание заключений по результатам диагностики</div>
+                        <div class="my-services-description-text super-desc">Составление коррекционного маршрута по заключению</div>
+                        <div class="my-services-description-text super-desc">Разбор кейса</div>
+                    </div>
+
+                    <button class="button">
+                        <a class="button-links" href="https://t.me/neuro_dev_tatyana">
+                            Записаться
+                        </a>
+                    </button>
                 </div>
+            </div>
+            <div >
+                <button class="back-button special-page">
+                    <a href="../index.html">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="20px" height="20px" viewBox="0 0 459 459" style="enable-background:new 0 0 459 459;" xml:space="preserve">
+<g>
+	<g id="reply">
+		<path d="M178.5,140.25v-102L0,216.75l178.5,178.5V290.7c127.5,0,216.75,40.8,280.5,130.05C433.5,293.25,357,165.75,178.5,140.25z"
+        />
+	</g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+</svg>
+                    </a>
+                </button>
             </div>
         </section>
         <section class="vebinars" id="vebinar">
-            <div class="container"> 
+            <div class="container">
+                <h2 class="block-title super"> Вебинары и мастер-классы</h2>
                 <div class="content">
-                    <div class="about_vebinar ">
-                        <div class="picture">
-                             <a href=""><!--по ссылке переход на описание вебинара-->
-                                 <img src="" alt="">
-                             </a> 
-                         </div>
-                        <div class="description">
-                             <p>название вебинара</p>
-                         </div>
+                    <div class="vebinar"> За анонсами вебинаров следите на моем
+                        <a href="http://t.me">
+                            Телеграмм-канале
+                        </a>
                     </div>
-                
-                    <div class="link"> <!--активно только когда семинар актуален-->
-                          <a href="">Ссылка на Зум</a> 
-                    </div>
+                    <p class="vebinar">Здесь будут записи уже проведенных вебинаров и мастер-классов</p>
+                  <!--  <div class="vebinar-box">
+                        <div class="about_vebinar ">
+                            <div class="picture">
+                                <a href=""> --><!--по ссылке переход на описание вебинара-->
+                           <!--         <img src="" alt="">
+                                </a>
+                            </div>
+                            <div class="description">
+                                <p>название вебинара</p>
+                            </div>
+                        </div>
+
+                        <div class="link"> --> <!--активно только когда семинар актуален-->
+                      <!--      <a href="">Ссылка на Зум</a>
+                        </div>
+                    </div> -->
+
                 </div>
             </div>
         </section>
         <section class="special_games" id="specialGames">
-            <div class="container"> 
+            <div class="container">
+                <h2 class="block-title super"> Игры </h2>
+                <div class="game-desc">
+                    <p> Я разрабатываю игры для проведения оналйн-занятий с использованием платформы Zoom. Игры браузерные,то есть открываются у вас в браузере (Яндекс, Google Chrome).
+                        Игра полностью управляется ппреподавателем. Чтобы ребенок мог играть,преподаватель передает ему дистанционное управление своим экраном.</p>
+                    <p>Каждая игра имеет несколько уровней сложности,которые Вы можете выбирать,исходя из возможностей ребенка. Также Вы можете изменят ьправила игры под свои задачи и уровень ребенка.</p>
+                </div>
                 <div class="games"> <!--добавить анимацию при наведении на игры-->
-                    <div class="game_name">
-                        <div>
-                            <img src="../images/IMG_54.jpg" alt="">
+                    <div class="game-box">
+                        <div class="game-link">
+                            <a  href="https://tatyanagtv.github.io/MemoryGame/index.html">
+                                Мемори.Цифры
+                            </a>
                         </div>
-                        <a href="">
-                           Повтори это
-                        </a>
+                        <div class="game-presentation">
+                       <div class="game-demo">
+                       <video width="320" height="240" controls>
+                           <source src="../video/Мемори.Демо.mp4" type="video/mp4">
+                       </video>
+                       </div>
+                       <div class="game_name">
+                           <div class="image">
+                               <img src="../images/Memory.png" alt="">
+                           </div>
+
+                       </div>
                     </div>
-                 <!--   <div class="game_name">
+
+
+                       <!-- <div>
+                            <button class="button">Купить игру</button>
+                        </div>-->
                         <div>
-                            <img src="" alt="">
+                            <button class="button">
+                                <a class="button-links" href="https://t.me/neuro_dev_tatyana">
+                                    Заказать игру*
+                                </a>
+                                </button>
                         </div>
-                        <a href="">
-                           Name
-                        </a>
-                    </div>-->
-                   
+                   </div>
+
+                </div>
+                <div class="games_for_development">
+                    <div class="game-desc">
+                        <p >Вы можете заказать разработку своей коррекционно-обучающей игры по Вашим материалам или адаптацию настольной игры/настольно-печатного пособия под проведение онлайн-занятий.</p>
+                        <div class="button-bx">
+                            <button class="button">
+                                <a class="button-links" href="https://t.me/neuro_dev_tatyana">
+                                    Заказать
+                                </a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
         </div>
         </section>
-        <section class="applications" id="applies">
+
+        <div class="star">
+            * На данный момент по техническим причинам покупка игр осуществляется напрямую через личные сообщения в телеграм.
+        </div>
+       <!-- <section class="applications" id="applies">
             <div class="container"> 
                 <div class="applications_content">
                     <div class="application_name">
@@ -119,7 +261,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
     </div>
     <footer class="footer">
         <div class="container footer_container">
@@ -137,6 +279,17 @@
             <span id="bodrum"> </span>
         </div>
     </footer>
+    <script>
+        document.getElementById('burger').onclick = function () {
+            document.getElementById('menu').classList.add('open');
+        }
+
+        document.querySelectorAll('#menu *').forEach((item) => {
+            item.onclick = () => {
+                document.getElementById('menu').classList.remove('open');
+            }
+        })
+    </script>
     <script>
         let rigths = document.getElementById('bodrum');
         rigths.innerHTML = ("Copyright &copy; "+ new Date().getFullYear()+ " Все права защищены.");
