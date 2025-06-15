@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://tatyanagtv.github.io/TatyanaBoyraz/sitemap.xml

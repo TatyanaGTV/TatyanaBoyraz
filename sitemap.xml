@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Главная страница -->
+    <url>
+        <loc>https://tatyanagtv.github.io/TatyanaBoyraz/</loc>
+        <lastmod>2025-06-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Разделы на главной -->
+    <url>
+        <loc>https://tatyanagtv.github.io/TatyanaBoyraz/#services</loc>
+        <lastmod>2025-06-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://tatyanagtv.github.io/TatyanaBoyraz/#games</loc>
+        <lastmod>2025-06-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Страница "Обо мне" -->
+    <url>
+        <loc>https://tatyanagtv.github.io/TatyanaBoyraz/views/aboutMe.html</loc>
+        <lastmod>2025-06-10</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Страница "Специалистам" -->
+    <url>
+        <loc>https://tatyanagtv.github.io/TatyanaBoyraz/views/special.html</loc>
+        <lastmod>2025-06-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Разделы на странице "Специалистам" -->
+    <url>
+        <loc>https://tatyanagtv.github.io/TatyanaBoyraz/views/special.html#super</loc>
+        <lastmod>2025-06-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://tatyanagtv.github.io/TatyanaBoyraz/views/special.html#vebinar</loc>
+        <lastmod>2025-06-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://tatyanagtv.github.io/TatyanaBoyraz/views/special.html#specialGames</loc>
+        <lastmod>2025-06-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
