@@ -516,12 +516,16 @@ body {
     font-size: 25px;
     margin-bottom: 20px;
 }
-.game-link{
+.game-title{
     text-align: center;
-}
-.game-link a:hover{
-    color: #ffe548;
+    color: #333333;
     font-weight: bold;
+}
+.game-price{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 20px;
     font-size: 25px;
 }
 .button.gamebtn{
